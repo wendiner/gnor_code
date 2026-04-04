@@ -1,3 +1,17 @@
+// ESC_demo.ino
+// by wendiner, 2026
+// GNU General Public License v3.0
+//
+// Demonstrates basic functionality of all motors.
+// Wiring guide:
+// 13 (or whatever pin is used for the onboard LED): leave open
+// 3: rudder cable (signal wire only)
+// 5: left propeller cable (signal wire only)
+// 9: right propeller cable (signal wire only)
+// A0: connect to (in series), resistor and one terminal of pot.
+// A2: connect to middle terminal of ground
+// GND: connect to ground cables of all motors and opposite terminal of pot.
+
 #include <Servo.h>
 #define midRange 115
 
